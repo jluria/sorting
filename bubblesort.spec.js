@@ -8,6 +8,6 @@ describe('Bubble Sort', function(){
   });
 
   it('handles an array containing multiple items', function(){
-    expect( bubbleSort([8, 12, 3, 42, 1, 7]) ).toequal( [1, 3, 7, 8, 12, 42] );
+    expect( bubbleSort([8, 12, 3, 42, 1, 7]) ).toEqual( [1, 3, 7, 8, 12, 42] );
   });
 });
